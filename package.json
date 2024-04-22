@@ -1,23 +1,30 @@
 {
   "name": "teste1",
   "version": "1.0.0",
-  "description": "primeiro teste de api",
-  "main": "server.js",
+  "description": "Primeiro teste de um API",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \\\"Error: No test specified\\\" && exit 1\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diogobrancocosta/AW-P-EXEMPLO-30329-.git"
   },
   "keywords": [
-    "ws",
-    "primeiro"
+    "[\"ws\"",
+    "\"primeiro\"]"
   ],
   "author": "Diogo Costa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/diogobrancocosta/AW-P-EXEMPLO-30329-/issues"
   },
-  "homepage": "https://github.com/diogobrancocosta/AW-P-EXEMPLO-30329-#readme"
+  "homepage": "https://github.com/diogobrancocosta/AW-P-EXEMPLO-30329-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
 }
