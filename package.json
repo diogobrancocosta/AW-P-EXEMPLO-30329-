@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \\\"Error: No test specified\\\" && exit 1\""
   },
+  "prisma": {
+    "schema": "data/prisma/schema.prisma"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diogobrancocosta/AW-P-EXEMPLO-30329-.git"
